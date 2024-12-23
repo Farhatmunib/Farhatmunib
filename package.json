@@ -1,0 +1,16 @@
+{
+  "name": "farhat-munib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/style.css -o ./src/output.css --watch",
+    "build:prod": "npx tailwindcss -i ./src/style.css -o ./src/output.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}

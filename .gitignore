@@ -1,0 +1,12 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+src/output.css
+
+# Logs and temporary files
+*.log
+.DS_Store
+
+# System files
+Thumbs.db
