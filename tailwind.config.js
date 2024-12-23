@@ -1,21 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{css,js}"
+    "./index.html",      // This will scan the index.html for class usage
+    "./src/style.css",   // This will scan the style.css for Tailwind classes
   ],
   theme: {
     extend: {
       screens: {
-        'xs': '475px',
-        'sm': '640px',
-        'md': '768px',
-        'lg': '1024px',
-        'xl': '1280px',
-        '2xl': '1536px',
-      },
-      fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        'xs': '475px',    // Extra small screen
+        'sm': '640px',    // Small screen
+        'md': '768px',    // Medium screen
+        'lg': '1024px',   // Large screen
+        'xl': '1280px',   // Extra large screen
+        '2xl': '1536px',  // Double extra large screen
       },
     },
   },
