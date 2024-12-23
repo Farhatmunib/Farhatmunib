@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "."
+  publish = "src"  # Ensure this is the correct directory where your index.html is located
 
 [[redirects]]
   from = "/*"
